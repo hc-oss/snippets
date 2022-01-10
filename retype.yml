@@ -1,0 +1,14 @@
+input: pages
+output: build
+url: snippets.harsh.cloud
+branding:
+  title: Snippets
+links:
+  - text: Apps
+    link: https://apps.harsh.cloud
+  - text: About
+    link: https://harsh.cloud
+edit:
+  repo: "https://github.com/hc-oss/snippets/"
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."

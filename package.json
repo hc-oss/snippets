@@ -1,0 +1,25 @@
+{
+  "name": "snippets",
+  "version": "1.0.0",
+  "description": "snippets",
+  "scripts": {
+    "dev": "retype watch",
+    "build": "retype build",
+    "preview": "retype run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hc-oss/snippets.git"
+  },
+  "keywords": [],
+  "author": "harshzalavadiya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hc-oss/snippets/issues"
+  },
+  "homepage": "https://github.com/hc-oss/snippets#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "retypeapp": "^1.11.2"
+  }
+}
