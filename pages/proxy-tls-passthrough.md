@@ -3,8 +3,11 @@ tags: [traefik, nginx, proxy, tls, passthrough]
 icon: ":construction_worker:"
 ---
 
+# TLS Passthrough
 
-# Traefik Proxy
+TLS passthrough passes request directly to provided endpoint without terminating TLS
+
+## Traefik Proxy
 
 ```yaml
 # traefik.yaml
@@ -46,8 +49,6 @@ tcp:
 ```
 
 # Nginx
-
-TLS passthrough passes request directly to provided endpoint without terminating TLS
 
 ```text
 stream {
