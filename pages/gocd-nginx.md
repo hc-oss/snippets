@@ -22,3 +22,9 @@ location /go {
     client_body_buffer_size 128k;
 }
 ```
+
+### Add directory to PATH
+
+```
+sudo vi /usr/share/go-agent/wrapper-config/wrapper-properties.conf # edit path variable
+```
